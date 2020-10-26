@@ -1,0 +1,22 @@
+html{
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+body{
+    margin: 0;
+    font-smooth: auto;
+    font-family: 'Roboto', sans-serif !important;
+}
+.mainbody{
+    padding: 10px;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}

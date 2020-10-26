@@ -1,0 +1,39 @@
+$navbar-color: transparent;
+
+.nav-item{
+    color: white;
+    background-color: $navbar-color;
+    transition: border-bottom 2ms;
+    margin: 0 5px;
+    > a:hover,
+    > a:active,
+    > a.active {
+        border-bottom: 2px solid #fff;
+        color: white;
+    }
+    .nav-link{
+        color: #fff;
+        height: 100%;
+        padding: 6px 10px;
+        border-bottom: 4px solid transparent;
+        transition: ease-in-out 0.2s;
+    }
+}
+
+nav img {
+    width: 100px;
+}
+
+.default-color {
+    background-color: #2bbbad !important;
+}
+
+button {
+    outline: none;
+}
+
+@media (max-width: 767px) {
+    .nav-item > a, .nav-item > a.activ {
+        border-bottom: 0 !important;
+    }
+}
